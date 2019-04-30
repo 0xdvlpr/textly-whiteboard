@@ -1,0 +1,76 @@
+html {
+    width: 100%;
+}
+
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px;
+    padding: 0px;
+    font-family: 'Special Elite', cursive;
+    font-size: 32px/40px;
+    color: #eee;
+    text-align: left;
+}
+
+h1:hover {
+    color: #888;
+}
+
+#textly {
+    border: none;
+    position: absolute;
+    top: 60px;
+    bottom: 40px;
+    margin: 0;
+    padding: 5%;
+    width: 90%;
+    text-align: left;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    outline: none;
+}
+
+textarea {
+    text-rendering: optimizeLegibility;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+
+footer {
+    color: #eee;
+    position: absolute;
+    bottom: 0;
+    margin-left: 20px;
+    height: 25px;
+    text-align: right;
+}
+
+footer:hover {
+    color: #888;
+}
+
+footer a {
+    color: #eef;
+}
+
+footer:hover a {
+    color: rgb(174, 174, 245);
+}
